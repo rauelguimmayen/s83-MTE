@@ -1,0 +1,210 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#navabar {
+	box-shadow: -1px 11px 8px -4px rgba(0, 0, 0, 0.69);
+	border-radius: 0px;
+}
+#navabar .navbar-collapse {
+  position: relative !important;
+ }
+
+#navabar .center-links {
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+ :root {
+      --sv-violet: #7c3aed;
+      --sv-violet-light: rgba(124, 58, 237, 0.1);
+      --sv-violet-border: rgba(124, 58, 237, 0.2);
+      --sv-orange: #f97316;
+    }
+ 
+    /* ── Hero Section ── */
+    .hero-section {
+      position: relative;
+      overflow: hidden;
+      padding-top: 100px;
+    }
+ 
+    .min-vh-75 {
+      min-height: 75vh;
+    }
+ 
+    /* ── Badge ── */
+    .hero-badge {
+      background: var(--sv-violet-light);
+      border: 1px solid var(--sv-violet-border);
+    }
+ 
+    .text-violet {
+      color: var(--sv-violet);
+    }
+ 
+    /* ── Animated Title ── */
+    .hero-title {
+      font-size: 4rem;
+      font-weight: 900;
+      line-height: 1.1;
+      height: 4.4em;
+      overflow: hidden;
+    }
+ 
+    .hero-title-outline {
+      -webkit-text-stroke: 2px #111;
+      color: transparent;
+    }
+ 
+    /* ── Buttons ── */
+    .btn-sv {
+      background: var(--sv-violet);
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+    }
+ 
+    .btn-sv:hover {
+      background: #6d28d9;
+      color: #fff;
+    }
+ 
+    .btn-sv-outline {
+      background: transparent;
+      color: #111;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+    }
+ 
+    .btn-sv-outline:hover {
+      background: #f3f4f6;
+    }
+ 
+    /* ── Stats ── */
+    .hero-stat-number {
+      font-weight: 900;
+      font-size: 1.5rem;
+      margin-bottom: 0;
+    }
+ 
+    /* ── Hero Image ── */
+    .hero-image-wrap {
+      border-radius: 1.25rem;
+      overflow: hidden;
+    }
+ 
+    .hero-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+ 
+    /* ── Floating Review Card ── */
+    .hero-review-card {
+      bottom: 0;
+      left: 0;
+      margin: 1.5rem;
+      padding: 0.75rem 1rem;
+      background: #fff;
+      border-radius: 0.75rem;
+      min-width: 200px;
+    }
+ 
+    /* ── Avatar Stack ── */
+    .avatar-stack {
+      margin-right: 4px;
+    }
+    #tagline {
+      max-width:460px;
+    }
+    .avatar {
+      width: 28px;
+      height: 28px;
+      font-size: 10px;
+      font-weight: 700;
+      color: #fff;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: -4px;
+    }
+ 
+    .avatar:first-child {
+      margin-left: 0;
+    }
+ 
+    .avatar-violet {
+      background: var(--sv-violet);
+    }
+ 
+    .avatar-orange {
+      background: var(--sv-orange);
+    }
+ 
+    .avatar-dark {
+      background: #374151;
+    }
+ 
+    /* ── Trending Badge ── */
+    .hero-trending-badge {
+      top: 0;
+      right: 0;
+      margin: 0.75rem;
+      background: #dc3545;
+      color: #fff;
+      border-radius: 0.75rem;
+      padding: 0.75rem;
+      text-align: center;
+      width: 80px;
+      transform: rotate(12deg);
+    }
+ 
+    .hero-trending-badge small {
+      font-size: 0.65rem;
+      font-weight: 700;
+    }
+    #product {
+    	display: grid;
+  		grid-template-columns: repeat(4, auto);
+  		gap: 16px;
+    }
+    .card {
+      width: 18rem;
+
+    }
+    .row-products {
+  --bs-gutter-y: 2rem; /* any value you want */
+}
+#carouselExampleAutoplaying {
+  width: 90%;
+  max-width: 900px;
+}
+
+#carouselExampleAutoplaying .card {
+  width: 100%;
+}
+
+#carouselExampleAutoplaying .card-img-top {
+  height: 350px;
+  object-fit: cover;
+}
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+.bg-sv-dark {
+  background-color: #111827; /* or any dark color you want */
+}
+#footerbrand {
+  width:30px;
+  height:30px;
+}
+#drops{
+  font-family: Bungee Spice;
+}
