@@ -24,6 +24,9 @@
     }
  
     /* ── Hero Section ── */
+    #hero{
+      padding-top: 100px;
+    }
     .hero-section {
       position: relative;
       overflow: hidden;
@@ -207,4 +210,19 @@
 }
 #drops{
   font-family: Bungee Spice;
+}
+#product .row {
+  align-items: stretch;
+}
+
+#product .card {
+  height: 100%;
+}
+
+#product .card-body {
+  text-align: left;
+}
+
+#product .list-group-item {
+  text-align: left;
 }
